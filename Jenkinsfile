@@ -61,7 +61,7 @@ properties([
                                             choiceType: 'PT_SINGLE_SELECT',
                                             description: 'Select the RDS Parameter group engine',
                                             name: 'para_engine',
-                                            referencedParameters: 'sqlserver-se',
+                                            referencedParameters: 'db_engine',
                                             script:
                                             [$class: 'GroovyScript',
                                             fallbackScript: [
