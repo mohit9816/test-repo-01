@@ -1,5 +1,5 @@
 properties([
-                         parameters([
+                        parameters([
                                   string(name: 'region', defaultValue: 'us-east-1', description: 'Add aws region'),
                                        string(name: 'subnets_list', defaultValue: '"subnet-07d9e4999713e4084,subnet-0556d325e93925333"', description: 'Add n numbers of subnet'),
                                       string(name: 'kms_key_id', defaultValue: 'bc805946-b85e-4073-a896-d7190982348e', description: 'Add kms key'),
