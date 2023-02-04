@@ -58,10 +58,10 @@ properties([
                                             ]
                                             ],
                                             [$class: 'CascadeChoiceParameter',
-                                            choiceType: 'PT_SINGLE_SELECT',
+                                            choiceType: 'SELECT',
                                             description: 'Select the RDS Parameter group engine',
                                             name: 'para_engine',
-                                            referencedParameters: 'db_engine',
+                                            referencedParameters: 'sqlserver-se-15.0',
                                             script:
                                             [$class: 'GroovyScript',
                                             fallbackScript: [
